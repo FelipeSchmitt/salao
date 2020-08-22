@@ -1,0 +1,104 @@
+nav{
+    background-color: rgb(241, 95, 119);
+    height: 65px;
+    margin: 0;
+    width: 100%;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-color: white;
+}
+body{
+    margin: 0;
+}
+/*background-color: rgb(235, 22, 235); */
+#menu img{
+    height: 65px;
+    cursor: pointer;
+}
+#views{
+    background-color: rgb(241, 95, 119);
+    width: 300px;
+    position: absolute;
+    border-bottom-right-radius: 5px;
+    margin-top: -4px;
+}
+#box{
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-top-color: whitesmoke;
+    border-width: 1px;
+}
+#content{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+}
+h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+h3{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+#database{
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+}
+#content img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width: 65em){
+    #views{
+        margin-left: 0.5%;
+        width: 99%;
+        text-align: center;
+    }
+    #box{
+        border-style: solid;
+        border-top-color: whitesmoke;
+        border-width: 1px;
+    }
+    #content{
+        width: 98%;
+    }
+    #database{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        margin-left: 7%;
+    }
+}
